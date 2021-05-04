@@ -37,6 +37,14 @@ export default class Input {
 		document.onmouseup = e => {
 			self.mousePressed = 0;
 		};
+		
+		document.onkeydown = e => {
+			self.keys[e.key] = 1;
+		};
+		
+		document.onkeyup = e => {
+			self.keys[e.key] = 0;
+		};
 	}
 
 	static update () {
