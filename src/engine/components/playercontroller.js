@@ -10,7 +10,5 @@ export default class PlayerController extends Component {
 
 		//console.log("Updating player controller!");
 
-		
-		// test
 	}
 }
